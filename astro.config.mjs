@@ -14,7 +14,7 @@ export default defineConfig({
 		analytics: true,
 		imageService: true,
 		imageConfig: {
-			sizes: [320, 640, 1280]
+			sizes: [150, 320, 640, 1280]
 		}
 	})
 })
