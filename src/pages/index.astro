@@ -4,6 +4,8 @@ import { Image } from 'astro:assets'
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 
+import '../styles/styles.scss'
+
 const seo = {
 	title: 'Welcome to Astro x Monogram',
 	description:
@@ -48,7 +50,7 @@ import monogramLogo from '../assets/monogram.png'
 		</ul>
 
 		<div class="mt-6">
-			<Image src={monogramLogo.src} alt="Monogram Logo" width={150} height={150} />
+			<Image src={monogramLogo.src} alt="Monogram Logo" width={1200} height={1200} />
 		</div>
 	</main>
 </Layout>
